@@ -62,7 +62,7 @@ module.exports = function(){
 
           // copy data to new document
           record = new Document( 'osmaddress', newid.join('-') )
-            .setName( 'default', streetno + ' ' + doc.address.street )
+            .setName( 'default',  doc.address.street + ' ' + streetno )
             .setCentroid( doc.getCentroid() );
 
           setProperties( record, doc );
