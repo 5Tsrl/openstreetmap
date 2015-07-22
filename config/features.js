@@ -5,14 +5,15 @@
 **/
 
 var tags = [
-  'addr:housenumber+addr:street',
+  //'addr:housenumber+addr:street',
+  'addr:street',
   'amenity+name',
   'building+name',
-  'shop+name',
-  'office+name',
-  'public_transport+name',
-  'cuisine+name',
-  'railway+name',
+  //'shop+name',
+  //'office+name',
+  //'public_transport+name',
+  //'cuisine+name',
+  //'railway+name',
   'sport+name',
   'natural+name',
   'tourism+name',
@@ -20,11 +21,11 @@ var tags = [
   'historic+name',
   'man_made+name',
   'landuse+name',
-  'waterway+name',
-  'aerialway+name',
-  'aeroway+name',
-  'craft+name',
-  'military+name'
+  //'waterway+name',
+  //'aerialway+name',
+  //'aeroway+name',
+  //'craft+name',
+  //'military+name'
 ];
 
 module.exports = tags;
