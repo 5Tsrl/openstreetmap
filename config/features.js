@@ -18,7 +18,7 @@ var tags = [
   //'natural+name',
   //'tourism+name',
   //'leisure+name',
-  //'historic+name',
+  'historic+name',
   //'man_made+name',
   //'landuse+name',
   //'waterway+name',
