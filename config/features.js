@@ -6,7 +6,6 @@
 
 var tags = [
   //'addr:housenumber+addr:street',
-  'addr:street',
   'highway!~bus_stop+name',
   'amenity+name',
   'building+name',
